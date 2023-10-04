@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Newsletter sign-up form with success message</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <form class="card-content" method="post" action="thankyou.html" id="form">
+        <h1 class="card-heading">Stay updated!</h1>
+        <p class="card-text">
+          Join 60,000+ product managers receving monthly updates on:
+        </p>
+        <ul class="card-list">
+          <li class="card-list-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+            >
+              <defs>
+                <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#FF6A3A" />
+                  <stop offset="100%" stop-color="#FF527B" />
+                </linearGradient>
+              </defs>
+              <g fill="none">
+                <circle cx="32" cy="32" r="32" fill="url(#a)" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="4"
+                  d="m18.286 34.686 8.334 7.98 19.094-18.285"
+                />
+              </g>
+            </svg>
+            Product discovery and building what matters
+          </li>
+          <li class="card-list-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+            >
+              <defs>
+                <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#FF6A3A" />
+                  <stop offset="100%" stop-color="#FF527B" />
+                </linearGradient>
+              </defs>
+              <g fill="none">
+                <circle cx="32" cy="32" r="32" fill="url(#a)" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="4"
+                  d="m18.286 34.686 8.334 7.98 19.094-18.285"
+                />
+              </g>
+            </svg>
+            Measuring to ensure updates are a success
+          </li>
+          <li class="card-list-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+            >
+              <defs>
+                <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#FF6A3A" />
+                  <stop offset="100%" stop-color="#FF527B" />
+                </linearGradient>
+              </defs>
+              <g fill="none">
+                <circle cx="32" cy="32" r="32" fill="url(#a)" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="4"
+                  d="m18.286 34.686 8.334 7.98 19.094-18.285"
+                />
+              </g></svg
+            >And much more!
+          </li>
+        </ul>
+        <div class="card-input">
+          <div class="card-input-label">
+            <label for="card-input-email">Email address</label>
+            <span id="valid-or-not"></span>
+          </div>
+          <input type="email" name="card-input-email" id="card-input-email" />
+        </div>
+        <div class="card-button">
+          <button type="submit">Subscribe to monthly newsletter</button>
+        </div>
+      </form>
+      <div class="card-img">
+        <img
+          src="/assets/images/illustration-sign-up-desktop.svg"
+          alt="illustration-sign-up-image"
+        />
+      </div>
+    </div>
+  </body>
+</html>
