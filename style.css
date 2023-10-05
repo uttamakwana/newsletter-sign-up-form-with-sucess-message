@@ -225,3 +225,7 @@ body {
     margin-top: auto;
   }
 }
+
+#email-placeholder {
+  font-family: "Roboto-Bold";
+}

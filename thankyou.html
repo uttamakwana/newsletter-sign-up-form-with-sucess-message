@@ -44,7 +44,13 @@
 
     <script>
       const form2 = document.querySelector("#form-2");
+      const emailSpan = document.querySelector("#email-placeholder");
+      const urlParams = new URLSearchParams(window.location.search);
+      const email = urlParams.get("email");
 
+      if (email) {
+        emailSpan.innerText = email;
+      }
       form2.addEventListener("submit", (e) => {
         e.preventDefault();
         window.location.href = "index.html";

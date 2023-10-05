@@ -30,7 +30,10 @@ function submitNewsletter(e) {
   if (!emailRegex.test(emailInputValue)) {
     return alert("Please enter valid email!");
   }
-  window.location.href = "thankyou.html";
+  // window.location.href = "thankyou.html";
+  window.location.href = `thankyou.html?email=${encodeURIComponent(
+    emailInputValue
+  )}`;
 }
 
 form.addEventListener("submit", submitNewsletter);
